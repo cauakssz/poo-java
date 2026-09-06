@@ -44,6 +44,7 @@ POO - Java/
 └── strings/
     └── Word.java
 ```
+
 ## Topics Covered
 
 ### Java Fundamentals
@@ -110,3 +111,76 @@ From the project root, compile a specific exercise with:
 
 ```bash
 javac introduction/Main.java
+```
+
+### Run
+
+```bash
+java introduction.Main
+```
+
+For exercises that require user input:
+
+```bash
+javac input/Average.java
+java input.Average
+```
+
+### Example
+
+A simple example from the repository:
+
+```java
+package introduction;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Olá, mundo!");
+    }
+}
+```
+
+Output:
+
+```text
+Olá, mundo!
+```
+
+## Tech Stack
+
+- **Language:** Java
+- **JDK:** 26
+- **IDE:** Visual Studio Code
+- **Version Control:** Git
+- **Repository:** GitHub
+- **External Dependencies:** None
+
+## Purpose
+
+The main purpose of this repository is to document my learning journey with Java and Object-Oriented Programming through practical exercises.
+
+Rather than focusing only on theory, each activity is implemented as code to reinforce the concepts learned during the course.
+
+## Learning Approach
+
+The exercises are developed progressively, starting with Java fundamentals and gradually introducing more advanced Object-Oriented Programming concepts.
+
+Each new activity is intended to reinforce previous knowledge while introducing new programming techniques.
+
+## Future Goals
+
+The repository will continue to grow as new topics are introduced in the course, including:
+
+- Classes and Objects
+- Constructors
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Abstraction
+- Interfaces
+- Collections
+- Exception Handling
+
+## License
+
+This project is intended for educational and personal use.
